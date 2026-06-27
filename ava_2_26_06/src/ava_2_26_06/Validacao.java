@@ -8,11 +8,13 @@ public class Validacao {
 		}
 	}
 
+	/*
 	public static void validarFrenagem (int frenagem) {
 		if (frenagem <= 0) {
 			throw new IllegalArgumentException("Atenção! O valor da frenagem deve ser maior do que zero!");
 		}
 	}
+	*/
 	
 	public static void validarNivelBateria (int bateria) {
 		if (bateria < 0 || bateria > 100) {
